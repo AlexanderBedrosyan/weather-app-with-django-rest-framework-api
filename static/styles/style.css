@@ -1,0 +1,58 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+.form-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px SOLID darkgrey;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.8);
+}
+
+.form-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-card form input {
+    margin-bottom: 5px;
+}
+
+.form-card form p {
+    color: white;
+    font-size: 2em;
+}
+
+.submit-button{
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 5px;
+    color: white;
+    font-size: 1.2em;
+    padding-block: 5px;
+    padding-inline: 13px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.8);
+}
+
+.submit-button:hover {
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+#id_name {
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 1.1em;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.8);
+}
